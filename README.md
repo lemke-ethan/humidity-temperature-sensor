@@ -24,10 +24,10 @@ Connecting the sensor:
 
 ## raspberry pi 0 2 spec
 
-![rpi pin out](./pinout.jpeg)
+![rpi pin out](./assets/pinout.jpeg)
 
 ## sensor spec
 
-![spec](./AM2302-spec-2022-10-25_03.jpg)
+![spec](./assets/AM2302-spec-2022-10-25_03.jpg)
 
-![interface](./AM2302-interface-2022-10-25_04.jpg)
+![interface](./assets/AM2302-interface-2022-10-25_04.jpg)
