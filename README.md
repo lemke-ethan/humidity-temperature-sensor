@@ -23,18 +23,19 @@ A raspberry pi 0 2 w humidity and temperature sensor
 
 References
 
-- https://www.raspberrypi.com/documentation/computers/remote-access.html#ssh
-- https://www.raspberrypi.com/documentation/computers/getting-started.html#raspberry-pi-imager
+- <https://www.raspberrypi.com/documentation/computers/remote-access.html#ssh>
+- <https://www.raspberrypi.com/documentation/computers/getting-started.html#raspberry-pi-imager>
 
 ### Setting up the web server
 
 1. SSH into the pi
 1. run `sudo apt update` and `sudo apt upgrade`
 1. run `sudo apt install apache2 -y`
+1. verify by navigating to <http://rpi20w.local/>
 
 References
 
-- https://www.raspberrypi.com/documentation/computers/remote-access.html#set-up-an-apache-web-server
+- <https://www.raspberrypi.com/documentation/computers/remote-access.html#set-up-an-apache-web-server>
 
 ### Connecting the sensor
 
