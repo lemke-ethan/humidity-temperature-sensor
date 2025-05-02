@@ -37,6 +37,12 @@ References
 
 - <https://www.raspberrypi.com/documentation/computers/remote-access.html#set-up-an-apache-web-server>
 
+### Installing Node.js
+
+1. SSH into the pi
+1. run `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash`
+1. run `nvm install 16`
+
 ### Connecting the sensor
 
 1. connect the left pin (i.e. +) to pin 1 for 3,3V of power
