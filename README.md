@@ -9,14 +9,34 @@ A raspberry pi 0 2 w humidity and temperature sensor
 
 ## pi setup
 
-Installing the OS:
+### Installing the OS
 
 1. install imager
 1. select the Raspberry Pi OS (64-bit) image
 1. click edit settings
-    1. set hostname, username, password, WLAN, locale, and enable the SSH service
+    1. set hostname: `rpi20w`
+    1. username: `alpha`
+    1. password
+    1. WLAN: asus 2G
+    1. locale
+    1. enable the SSH service: `rpi20w.local`
 
-Connecting the sensor:
+References
+
+- https://www.raspberrypi.com/documentation/computers/remote-access.html#ssh
+- https://www.raspberrypi.com/documentation/computers/getting-started.html#raspberry-pi-imager
+
+### Setting up the web server
+
+1. SSH into the pi
+1. run `sudo apt update` and `sudo apt upgrade`
+1. run `sudo apt install apache2 -y`
+
+References
+
+- https://www.raspberrypi.com/documentation/computers/remote-access.html#set-up-an-apache-web-server
+
+### Connecting the sensor
 
 1. connect the left pin (i.e. +) to pin 1 for 3,3V of power
 1. connect the middle pin (i.e. out) to pin 3 for data
