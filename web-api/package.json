@@ -18,7 +18,8 @@
   "dependencies": {
     "express": "5.1.0",
     "openapi3-ts": "4.4.0",
-    "swagger-ui-express": "5.0.1"
+    "swagger-ui-express": "5.0.1",
+    "onoff": "6.0.3"
   },
   "devDependencies": {
     "@types/express": "5.0.1",
