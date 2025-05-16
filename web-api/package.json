@@ -9,7 +9,9 @@
     "build": "tsc",
     "start": "node dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "check-formatting": "prettier --check \"src/**/*.{ts,js,json,md}\"",
+    "fix-formatting": "prettier --write \"src/**/*.{ts,js,json,md}\""
   },
   "author": "Ethan Lemke",
   "license": "MIT",
@@ -22,6 +24,7 @@
     "@types/express": "5.0.1",
     "@types/node": "22.15.18",
     "@types/swagger-ui-express": "4.1.8",
+    "prettier": "^3.5.3",
     "typescript": "5.8.3",
     "vite-node": "3.1.3"
   }
