@@ -7,6 +7,13 @@ A raspberry pi 0 2 w humidity and temperature sensor
 - [Raspberry Pi Tutorial: How to Use the DHT-22](https://www.instructables.com/Raspberry-Pi-Tutorial-How-to-Use-the-DHT-22/)
 - [onoff](https://github.com/fivdi/onoff)
 
+## dev environment
+
+1. install docker desktop
+1. on windows, setup WSL 2, install ubuntu 22 LTS and integrate that with docker desktop
+1. clone the repository (clone into the ubuntu 22 if on windows)
+1. run `./devcontainer.sh`
+
 ## pi setup
 
 ### Installing the OS
@@ -42,6 +49,8 @@ References
 1. SSH into the pi
 1. run `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash`
 1. run `nvm install 16`
+
+> Using the LTS v16 here because onoff only supports v16.
 
 ### Connecting the sensor
 
