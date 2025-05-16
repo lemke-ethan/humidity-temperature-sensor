@@ -64,6 +64,8 @@ References
 
 ## sensor spec
 
+[Datasheet](https://www.makerguides.com/wp-content/uploads/2019/02/DHT22-AM2302-Datasheet.pdf)
+
 ![spec](./assets/AM2302-spec-2022-10-25_03.jpg)
 
 ![interface](./assets/AM2302-interface-2022-10-25_04.jpg)
