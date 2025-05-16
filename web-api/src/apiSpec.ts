@@ -14,6 +14,7 @@ export const openApiSpec: OpenAPIObject = {
     [indexRequestPath]: {
       get: {
         summary: "Root endpoint",
+        operationId: "indexRequestHandler",
         responses: {
           "200": {
             description: "API is running",
